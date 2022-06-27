@@ -1,7 +1,9 @@
 I'm Jarrett Vickers
 
 -a writer and developer
+
 -specializing in the Ethereum ecosystem
+
 -hobbies include lifting, drawing, and gaming
 
 
@@ -15,7 +17,7 @@ RECENT WORK HISTORY
 
 PORTFOLIO SAMPLES
 
-Writing examples
+*Writing examples*
 
 -[NFT Gaming with Axie Infinity: How to play and win](https://peerthroughmedia.com/axie-infinity-nft-gaming-how-to-play/) - Peer Through Media
 
