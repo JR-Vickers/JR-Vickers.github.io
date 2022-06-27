@@ -6,12 +6,15 @@ I'm Jarrett Vickers
 
 
 EDUCATION
+
 -Troy University, Bachelor’s degree, Environmental Science (2017)
 
 RECENT WORK HISTORY
+
 -Alliance Source Testing (Technical writer)
 
 PORTFOLIO SAMPLES
+
 Writing examples
 -[NFT Gaming with Axie Infinity: How to play and win](https://peerthroughmedia.com/axie-infinity-nft-gaming-how-to-play/) - Peer Through Media
 
