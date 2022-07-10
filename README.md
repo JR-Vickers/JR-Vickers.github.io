@@ -13,7 +13,7 @@ EDUCATION
 
 RECENT WORK HISTORY
 
--Alliance Source Testing (Technical writer)
+-Alliance Source Testing (Technical Writer)
 
 PORTFOLIO SAMPLES
 
