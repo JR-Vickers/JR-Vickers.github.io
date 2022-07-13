@@ -6,6 +6,8 @@ I'm Jarrett Vickers
 
 -hobbies include lifting, drawing, and gaming
 
+-[my web3 dev roadmap](https://mirror.xyz/0xEc34E9d4d6441aA7906e45c2eBBd95c22903F5ea/9nsCi-AIuPtaOpDPuSQdFSk3Wjz7xRCzSXygTaTg9qc)
+
 
 EDUCATION
 
@@ -14,6 +16,11 @@ EDUCATION
 RECENT WORK HISTORY
 
 -Alliance Source Testing (Technical Writer)
+
+SOCIAL
+
+-Twitter [@0xVickers](https://twitter.com/0xVickers)
+-[mirror.xyz](https://mirror.xyz/0xEc34E9d4d6441aA7906e45c2eBBd95c22903F5ea)
 
 PORTFOLIO SAMPLES
 
