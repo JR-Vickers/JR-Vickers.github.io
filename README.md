@@ -20,6 +20,7 @@ RECENT WORK HISTORY
 SOCIAL
 
 -Twitter [@0xVickers](https://twitter.com/0xVickers)
+
 -[mirror.xyz](https://mirror.xyz/0xEc34E9d4d6441aA7906e45c2eBBd95c22903F5ea)
 
 PORTFOLIO SAMPLES
