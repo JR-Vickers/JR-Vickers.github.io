@@ -12,6 +12,7 @@ Technology enthusiast, software and hardware.
 - Markdown
 - Jupyter Notebooks
 - PyTorch
+- Cryptography
 
 ### Hardware
 - [Part 107 Drone Pilot Certification](https://www.faa.gov/uas/commercial_operators)
@@ -24,6 +25,9 @@ Technology enthusiast, software and hardware.
 
 ## Current Status
 - Currently living and building at the [Network School](https://ns.com/).
+
+## Projects
+[Galaxy Generator](https://galaxy-generator-seven-kappa.vercel.app/)
 
 ## SOCIAL
 
