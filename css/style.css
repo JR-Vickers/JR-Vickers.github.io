@@ -12,7 +12,6 @@
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-family: -apple-system, 'Courier New', Courier, monospace;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -38,30 +37,12 @@ header {
     margin: 0;
 }
 
-nav {
-    border-top: 1px solid var(--text-color);
-    border-bottom: 1px solid var(--text-color);
-    padding: 1rem 0;
-}
-
-nav a {
-    color: var(--text-color);
-    text-decoration: none;
-    margin: 0 1rem;
-    transition: color 0.2s;
-}
-
-nav a:hover {
-    color: var(--accent-color);
-}
-
 h1, h2, h3 {
     color: var(--text-color);
 }
 
 section {
     max-width: 800px;
-    margin: 2rem auto;
     padding: 0 1rem;
 }
 
@@ -196,4 +177,8 @@ a:hover {
 .main-content {
     flex: 1;
     padding: 1rem;
+}
+
+footer {
+    align-self: flex-end;
 }
