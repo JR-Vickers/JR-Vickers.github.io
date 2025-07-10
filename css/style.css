@@ -1,6 +1,6 @@
 :root {
     --bg-color: #1a1a1a;
-    --text-color: #E9A228;
+    --text-color: #dcd6cb;
     --accent-color: #4a9eff;
     --link-color: #4a9eff;
     --link-hover-color: #6fb1ff;
@@ -15,6 +15,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 2rem;
     border: 1px solid var(--text-color);
 }
 
@@ -26,7 +32,9 @@ header {
 .header-content {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 1rem;
+    font-family: georgia;
 }
 
 .header-content h1 {
@@ -39,6 +47,16 @@ header {
 
 h1, h2, h3 {
     color: var(--text-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: georgia;
+}
+
+.intro-text {
+    font-size: 1.8em;
+    font-family: georgia;
 }
 
 section {
@@ -86,16 +104,18 @@ a:hover {
     min-height: 100vh;
 }
 
-.sidebar {
-    width: var(--sidebar-width);
-    background-color: var(--sidebar-bg);
-    border-right: 1px solid var(--text-color);
-    padding: 0rem;
-    font-size: 0.9rem;
+.nav-structure {
+    margin-top: 1rem;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
 }
 
-.directory {
-    margin-top: 1rem;
+.nav-item {
+    border: 1px dotted var(--text-color);
+    font-family: courier;
+    font-size: 1.2em;
+    color: var(--text-color);
 }
 
 .prompt {
@@ -103,47 +123,9 @@ a:hover {
     margin-right: 0.5rem;
 }
 
-.dir-name {
-    color: var(--text-color);
-}
-
-.dir-structure {
-    list-style: none;
-    padding-left: 1.5rem;
-    margin-top: 0.5rem;
-}
-
-.dir-structure li {
-    margin: 0.5rem 0;
-    cursor: pointer;
-    transition: color 0.2s;
-}
-
-.dir-structure li:hover {
-    color: var(--accent-color);
-}
-
-.dir-structure li.active {
-    color: var(--accent-color);
-}
-
-.dir-structure li a {
-    color: var(--text-color);
-    text-decoration: none;
-    transition: color 0.2s;
-}
-
-.dir-structure li a:hover {
-    color: var(--accent-color);
-}
-
-.dir-structure li a.active {
-    color: var(--accent-color);
-}
-
-/* Dropdown styles */
 .dropdown {
     position: relative;
+    border: 1px dotted var(--text-color);
 }
 
 .dropdown-content {
@@ -153,7 +135,7 @@ a:hover {
     top: 0;
     background-color: var(--sidebar-bg);
     min-width: 120px;
-    border: 1px solid var(--text-color);
+    border: 1px dotted var(--text-color);
     z-index: 1;
 }
 
@@ -179,6 +161,15 @@ a:hover {
     padding: 1rem;
 }
 
+.break {
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+    color: var(--text-color);
+}
+
 footer {
-    align-self: flex-end;
+    text-align: left;
+    font-size: 0.8em;
+    margin-top: 0rem;
+    padding-top: 1rem;
 }
