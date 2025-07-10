@@ -173,3 +173,15 @@ footer {
     margin-top: 0rem;
     padding-top: 1rem;
 }
+
+.post-meta {
+    font-style: italic;
+}
+
+.table-header {
+    font-weight: bold;
+}
+
+.post-note {
+    font-size: 0.8em;
+}
