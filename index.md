@@ -40,37 +40,4 @@ Currently exploring machine learning, cryptography, governance, and Southeast As
 <p><a href="https://galaxy-generator-seven-kappa.vercel.app/" target="_blank" rel="noopener">Galaxy Generator.</a> A fun little toy project.  Simulate gravity and galaxy formation.  Made with Next.js, Typescript, and Tailwind CSS.</p>
 </div>
 
-## Skills
-
-<table>
-<tr>
-<td style="vertical-align: top;">
-
-### Software
-
-- Python
-- Jupyter
-- Numpy
-- Pandas
-- Matplotlib
-- PyTorch
-
-</td>
-<td style="vertical-align: top;">
-
-### Hardware
-
-- [Part 107 Drone Pilot Certification](https://www.faa.gov/uas/commercial_operators)
-- CAD Design
-- 3D Printing
-- Flight Controller Firmware Programming
-- Wiring, soldering
-- Epoxy resin casting
-
-</td>
-</tr>
-</table>
-
-<p class="post-note">I've put together a list of my favorite <a href="/essays/learning-resources/">learning resources</a> for the above skills.</p>
-
 <hr class="break">
