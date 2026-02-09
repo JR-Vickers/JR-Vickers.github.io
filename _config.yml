@@ -1,3 +1,19 @@
-theme: jekyll-theme-midnight
-title: Jarrett's Personal Website
-# description: A showcase of my projects and skills
+title: Jarrett Vickers
+description: Personal website and portfolio
+
+collections:
+  essays:
+    output: true
+    permalink: /essays/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "essays"
+    values:
+      layout: "essay"
