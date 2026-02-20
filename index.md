@@ -11,7 +11,7 @@ title: Home
 
 ## Current Status
 
-Currently exploring machine learning, cryptography, governance, and Southeast Asia at [Network School](https://ns.com/).
+Currently teaching machine learning [Network School](https://ns.com/) in Southeast Asia.
 
 <hr class="break">
 
