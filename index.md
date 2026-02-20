@@ -4,7 +4,7 @@ title: Home
 ---
 
 <section class="intro">
-<p class="intro-text">I am an engineer.  I am most engaged when working on hard problems that I have not yet wrapped my head around.</p>
+<p class="intro-text"></p>
 </section>
 
 <hr class="break">
