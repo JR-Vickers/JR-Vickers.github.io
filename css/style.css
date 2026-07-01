@@ -281,8 +281,75 @@ footer {
     margin-bottom: 1rem;
 }
 
+.course-eyebrow {
+    font-family: courier;
+    font-size: 0.9em;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.5rem;
+    color: var(--accent-color);
+}
+
+.course-lead {
+    font-size: 1.2em;
+}
+
+.course-cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.course-cta,
+.course-secondary {
+    display: inline-block;
+    padding: 0.5rem 0.9rem;
+    border: 1px dotted var(--text-color);
+    border-radius: 4px;
+    font-family: courier;
+}
+
+.course-cta {
+    background-color: #222;
+}
+
+.course-grid-two {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.course-steps {
+    padding-left: 1.25rem;
+}
+
+.course-steps li {
+    margin-bottom: 1rem;
+}
+
+.course-steps p {
+    margin: 0.25rem 0 0;
+}
+
+.course-checklist {
+    list-style-type: disc;
+    padding-left: 1.25rem;
+}
+
+.course-checklist li {
+    margin-bottom: 0.4rem;
+}
+
+.course-final-cta {
+    margin-bottom: 1rem;
+}
+
 @media (max-width: 720px) {
     .printing-grid-two {
+        grid-template-columns: 1fr;
+    }
+
+    .course-grid-two {
         grid-template-columns: 1fr;
     }
 
