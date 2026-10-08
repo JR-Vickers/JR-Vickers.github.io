@@ -19,13 +19,30 @@ I recently received a [grant](https://blog.cosmos-institute.org/p/announcing-80-
 
 >_LLM epistemic integrity - such as calibrated uncertainty, (resistance to) sycophancy, willingness to perform Bayesian updates, use of references, and steelmanning opposition - are all implemented late in the LLM training process, in post-training. Research has shown that post-trained behaviors degrade under quantization, which suggests that epistemic integrity may be compromised. LLM epistemic integrity under quantization has never been rigorously researched and documented. You should be able to know if the local model you chose behaves faithfully to the one you think you're running._
 
-<br>
-<br>
+<br/>
+<br/>
 In my spare time, I teach machine learning at [Network School](https://ns.com/) in Astana, Kazakhstan.
 
 <hr class="break">
 
 ## Projects
+
+<div class="project">
+<p>I ran a <a href="https://github.com/JR-Vickers/quantization-study" target="_blank" rel="noopener">quantization study</a> on an open-source coding model, DeepSeek-Coder-V2-Lite-Instruct.
+<br/>
+<br/>
+The goals of this project were to 1) teach myself inference engineering by jumping into the deep end of the pool, and 2) extensively document this process in a series of notebooks so that I could use them to teach inference engineering to others.
+<br/>
+<br/>
+The intent was to quantize the model as heavily as possible without degrading performance too badly.  Quantizing from 16-bit to 8-bit integers had minimal impact on the HumanEval results, while substantially reducing model size and increasing token/sec.  We see more model errors at 4-bit quantization, which I was able to mitigate by running sensitivity analyses on each layer and identifying which layers degenerated performance the most under 4-bit quantization.  This led me to create a mixed-precision policy, in which four layers were left at 8-bit quantization while the others were set to 4-bit.  The result was a model that was only marginally larger than the pure 4-bit version, while reclaiming much of the lost HumanEval Pass@1 performance.
+</p>
+<img src="pictures/quantization_results.png" alt="Quantization study results" style="max-width:100%; height:auto; margin-top:10px;">
+</div>
+
+
+<div class="project">
+<p>GRAM</p>
+</div>
 
 <div class="project">
 <p>At <a href="https://ns.com/" target="_blank" rel="noopener">Network School</a>, I <a href="https://x.com/0xJarrett/status/1959995784872841452" target="_blank" rel="noopener">taught a robotics class</a> with my co-host <a href="https://www.linkedin.com/in/lana-shevchenko/" target="_blank" rel="noopener">Lana</a>.  We were able to take a room of complete robotics novices and had them assemble and program a series of <a href="https://github.com/TheRobotStudio/SO-ARM100" target="_blank" rel="noopener">SO-ARM100 robotic arms</a> in just a few hours.  Our students also learned how to operate a 3D printer.</p>
