@@ -11,13 +11,17 @@ title: Home
 
 ## Current Status
 
-Currently teaching machine learning [Network School](https://ns.com/) in Southeast Asia.
+I recently received a [grant](https://blog.cosmos-institute.org/p/announcing-80-new-cosmos-grantees) from the [Cosmos Institute](https://cosmos-institute.org) to build the <b>Compression Integrity Bench</b>.
 
-<hr class="break">
+<img src="pictures/Jarrett Vickers — Compression Integrity Bench.png" alt="Compression Integrity Bench" style="max-width: 100%; height: auto; margin-top: 10px;">
 
-## Recent work history
+>_Decentralized AI is premised on open-weight models running on local hardware. But almost nobody runs them at full precision. LLM deployments are implemented under various inference optimization regimes, such as quantization. Quantized LLM deployments are evaluated on task performance, but not on epistemic behavior. Careless quantization does more than just degrade performance - it disproportionately affects low-magnitude weights and the tails of the output distribution. If hedging, alternative hypotheses, and dissent live in those tails, then quantization could cause epistemic degradation. If this compromises the ability of open-weight models to maintain epistemic integrity, then the promise of decentralized AI may remain unrealized._
 
-[Rainmaker Technology Corporation](https://www.rainmaker.com/) - Forward Deployed Engineer
+>_LLM epistemic integrity - such as calibrated uncertainty, (resistance to) sycophancy, willingness to perform Bayesian updates, use of references, and steelmanning opposition - are all implemented late in the LLM training process, in post-training. Research has shown that post-trained behaviors degrade under quantization, which suggests that epistemic integrity may be compromised. LLM epistemic integrity under quantization has never been rigorously researched and documented. You should be able to know if the local model you chose behaves faithfully to the one you think you're running._
+
+<br>
+<br>
+In my spare time, I teach machine learning at [Network School](https://ns.com/) in Astana, Kazakhstan.
 
 <hr class="break">
 
@@ -32,12 +36,8 @@ Currently teaching machine learning [Network School](https://ns.com/) in Southea
 <p><a href="https://www.kaggle.com/code/bjrnste/path-to-the-amazon-sun-gods#2.-Download-the-Terrabrasilis-deforestation-data-&-Define-the-AOI-around-the-Indigenous-Territories-uncovered-above" target="_blank" rel="noopener">My team's submission</a> for the <a href="https://openai.com/openai-to-z-challenge/" target="_blank" rel="noopener">OpenAI-to-Z challenge</a>.  Process large amounts of satellite data to scan the Amazonian rainforest for undiscovered ruins and earthworks.  A Jupyter notebook that utilizes essential data science tools such as numpy, pandas, matplotlib, and more niche tooling such as geopandas and rasterio.  Large-scale image classification.</p>
 </div>
 
-<div class="project">
-<p><a href="https://github.com/JR-Vickers/a16z_job_skills/blob/main/main.ipynb" target="_blank" rel="noopener">I recently analyzed</a> the job boards for <a href="https://www.linkedin.com/posts/jordanmazer_these-35-andreessen-horowitz-backed-companies-activity-7320077608052764672-A2Kg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACxXoykB8aL2eDtVoQzAVrRBauNOqQkoC4w" target="_blank" rel="noopener">35 a16z-backed startups</a> that are currently hiring.  I identified the most in-demand skills for these startups.  Spoilers: the Go programming language is number one, closely followed by Python.  PyTorch was the only library that made the list, reflecting the current AI wave.</p>
-</div>
-
-<div class="project">
-<p><a href="https://galaxy-generator-seven-kappa.vercel.app/" target="_blank" rel="noopener">Galaxy Generator.</a> A fun little toy project.  Simulate gravity and galaxy formation.  Made with Next.js, Typescript, and Tailwind CSS.</p>
-</div>
-
 <hr class="break">
+
+## Recent work history
+
+[Rainmaker Technology Corporation](https://www.rainmaker.com/) - Forward Deployed Engineer
