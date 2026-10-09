@@ -25,7 +25,7 @@ In my spare time, I teach machine learning at [Network School](https://ns.com/) 
 
 <hr class="break">
 
-## Projects
+## Past Projects
 
 <div class="project">
     <h3>Quantization Study</h3>
@@ -57,12 +57,14 @@ In my spare time, I teach machine learning at [Network School](https://ns.com/) 
 </div>
 
 <div class="project">
-<p>At <a href="https://ns.com/" target="_blank" rel="noopener">Network School</a>, I <a href="https://x.com/0xJarrett/status/1959995784872841452" target="_blank" rel="noopener">taught a robotics class</a> with my co-host <a href="https://www.linkedin.com/in/lana-shevchenko/" target="_blank" rel="noopener">Lana</a>.  We were able to take a room of complete robotics novices and had them assemble and program a series of <a href="https://github.com/TheRobotStudio/SO-ARM100" target="_blank" rel="noopener">SO-ARM100 robotic arms</a> in just a few hours.  Our students also learned how to operate a 3D printer.</p>
-<img src="pictures/robotics_learnathon.png" alt="Robotics learnathon class" style="max-width: 100%; height: auto; margin-top: 10px;">
+    <h3>Robotics Hackathon at Network School</h3>
+        <p>At <a href="https://ns.com/" target="_blank" rel="noopener">Network School</a>, I <a href="https://x.com/0xJarrett/status/1959995784872841452" target="_blank" rel="noopener">taught a robotics class</a> with my co-host <a href="https://www.linkedin.com/in/lana-shevchenko/" target="_blank" rel="noopener">Lana</a>.  We were able to take a room of complete robotics novices and had them assemble and program a series of <a href="https://github.com/TheRobotStudio/SO-ARM100" target="_blank" rel="noopener">SO-ARM100 robotic arms</a> in just a few hours.  Our students also learned how to operate a 3D printer.</p>
+        <img src="pictures/robotics_learnathon.png" alt="Robotics learnathon class" style="max-width: 100%; height: auto; margin-top: 10px;">
 </div>
 
 <div class="project">
-<p><a href="https://www.kaggle.com/code/bjrnste/path-to-the-amazon-sun-gods#2.-Download-the-Terrabrasilis-deforestation-data-&-Define-the-AOI-around-the-Indigenous-Territories-uncovered-above" target="_blank" rel="noopener">My team's submission</a> for the <a href="https://openai.com/openai-to-z-challenge/" target="_blank" rel="noopener">OpenAI-to-Z challenge</a>.  Process large amounts of satellite data to scan the Amazonian rainforest for undiscovered ruins and earthworks.  A Jupyter notebook that utilizes essential data science tools such as numpy, pandas, matplotlib, and more niche tooling such as geopandas and rasterio.  Large-scale image classification.</p>
+    <h3>OpenAI-to-Z Challenge</h3>
+        <p><a href="https://www.kaggle.com/code/bjrnste/path-to-the-amazon-sun-gods#2.-Download-the-Terrabrasilis-deforestation-data-&-Define-the-AOI-around-the-Indigenous-Territories-uncovered-above" target="_blank" rel="noopener">My team's submission</a> for the <a href="https://openai.com/openai-to-z-challenge/" target="_blank" rel="noopener">OpenAI-to-Z challenge</a>.  Process large amounts of satellite data to scan the Amazonian rainforest for undiscovered ruins and earthworks.  A Jupyter notebook that utilizes essential data science tools such as numpy, pandas, matplotlib, and more niche tooling such as geopandas and rasterio.  Large-scale image classification.</p>
 </div>
 
 <hr class="break">
