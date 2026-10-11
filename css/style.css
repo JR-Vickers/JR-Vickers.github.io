@@ -26,7 +26,6 @@ body {
 
 header {
     background-color: var(--header-bg);
-
 }
 
 .header-content {
@@ -34,7 +33,7 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    font-family: georgia;
+    /*font-family: georgia;*/
 }
 
 .header-content h1 {
@@ -45,18 +44,28 @@ header {
     margin: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: var(--text-color);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*
+    font-family:
+        "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    */
 }
 
 p {
+    /*
     font-family: georgia;
+    */
 }
 
 .intro-text {
     font-size: 1.5em;
+    /*
     font-family: georgia;
+    */
 }
 
 section {
@@ -113,7 +122,9 @@ a:hover {
 
 .nav-item {
     border: 1px dotted var(--text-color);
+    /*
     font-family: courier;
+    */
     font-size: 1.2em;
     color: var(--text-color);
 }
@@ -187,7 +198,9 @@ footer {
 }
 
 .printing-eyebrow {
+    /*
     font-family: courier;
+    */
     font-size: 0.9em;
     letter-spacing: 0.04em;
     margin-bottom: 0.5rem;
@@ -218,7 +231,9 @@ footer {
     padding: 0.5rem 0.9rem;
     border: 1px dotted var(--text-color);
     border-radius: 4px;
+    /*
     font-family: courier;
+    */
 }
 
 .printing-cta {
@@ -265,7 +280,9 @@ footer {
     margin-top: 0.35rem;
     font-size: 0.85em;
     color: #bcb5a7;
+    /*
     font-family: georgia;
+    */
 }
 
 .printing-checklist {
@@ -282,7 +299,9 @@ footer {
 }
 
 .course-eyebrow {
+    /*
     font-family: courier;
+    */
     font-size: 0.9em;
     letter-spacing: 0.04em;
     margin-bottom: 0.5rem;
@@ -306,7 +325,9 @@ footer {
     padding: 0.5rem 0.9rem;
     border: 1px dotted var(--text-color);
     border-radius: 4px;
+    /*
     font-family: courier;
+    */
 }
 
 .course-cta {
