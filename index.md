@@ -9,7 +9,7 @@ title: Home
 
 <hr class="break">
 
-## Current Status
+<h2>Current Status</h2>
 
 I recently received a [grant](https://blog.cosmos-institute.org/p/announcing-80-new-cosmos-grantees) from the [Cosmos Institute](https://cosmos-institute.org) to build the <b>Compression Integrity Bench</b>.
 
@@ -25,7 +25,7 @@ In my spare time, I teach machine learning at [Network School](https://ns.com/) 
 
 <hr class="break">
 
-## Past Projects
+<h2>Past Projects</h2>
 
 <div class="project">
     <h3>Quantization Study</h3>
@@ -69,6 +69,6 @@ In my spare time, I teach machine learning at [Network School](https://ns.com/) 
 
 <hr class="break">
 
-## Recent work history
+<h2>Recent work history</h2>
 
 [Rainmaker Technology Corporation](https://www.rainmaker.com/) - Forward Deployed Engineer
