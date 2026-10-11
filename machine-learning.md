@@ -6,7 +6,7 @@ permalink: /machine-learning/
 ---
 
 <section class="course-hero">
-  <p class="course-eyebrow">Network School · Forest City, Malaysia</p>
+  <p class="course-eyebrow">Network School · Astana, Kazakhstan</p>
   <h1>Principles of Machine Learning</h1>
   <p class="course-lead">A practical, intuition-first machine learning course for founders and builders who want to understand the modern AI stack without getting lost in jargon.</p>
   <p>We focus on the full pipeline behind today’s AI systems: data, pretraining, posttraining, inference, APIs, local models, and the mental models you need to reason about capability, cost, and scale.</p>
