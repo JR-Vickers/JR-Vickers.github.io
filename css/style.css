@@ -9,6 +9,73 @@
     --sidebar-bg: #151515;
 }
 
+#page-toc {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    width: 200px;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+    font-size: 1.2em;
+    line-height: 1.35;
+}
+
+#page-toc h2 {
+    margin: 0 0 0.65rem;
+    font-size: 1rem;
+}
+
+#page-toc ol {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+#page-toc li {
+    margin-bottom: 0.25rem;
+    overflow-wrap: anywhere;
+}
+
+#page-toc .toc-level-h1 {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+#page-toc .toc-level-h2 {
+    margin-left: 0.65rem;
+    font-size: 0.92em;
+    font-weight: 600;
+}
+
+#page-toc .toc-level-h3 {
+    margin-left: 1.3rem;
+    font-size: 0.86em;
+}
+
+#page-toc .toc-level-h4 {
+    margin-left: 1.95rem;
+    font-size: 0.8em;
+}
+
+#page-toc .toc-level-h5 {
+    margin-left: 2.6rem;
+    font-size: 0.75em;
+}
+
+#page-toc .toc-level-h6 {
+    margin-left: 3.25rem;
+    font-size: 0.7em;
+}
+
+#page-toc[hidden] {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    #page-toc {
+        display: none;
+    }
+}
 body {
     background-color: var(--bg-color);
     color: var(--text-color);

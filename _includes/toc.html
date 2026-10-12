@@ -1,0 +1,45 @@
+<aside id="page-toc" aria-label="Table of contents" hidden>
+    <h2>Table of Contents</h2>
+    <nav aria-label="Page sections">
+        <ol></ol>
+    </nav>
+</aside>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var toc = document.getElementById('page-toc');
+        var list = toc.querySelector('ol');
+        var headings = document.querySelectorAll('main h1, main h2, main h3, main h4, main h5, main h6');
+        var usedIds = new Set(Array.from(document.querySelectorAll('[id]'), function (element) {
+            return element.id;
+        }));
+
+        headings.forEach(function (heading) {
+            var text = heading.textContent.trim();
+            if (!text) return;
+
+            if (!heading.id) {
+                var slug = text.toLowerCase().normalize('NFKD')
+                    .replace(/[\u0300-\u036f]/g, '')
+                    .replace(/[^a-z0-9]+/g, '-')
+                    .replace(/^-|-$/g, '') || 'section';
+                var id = slug;
+                var suffix = 2;
+                while (usedIds.has(id)) id = slug + '-' + suffix++;
+                heading.id = id;
+                usedIds.add(id);
+            }
+
+            var item = document.createElement('li');
+            item.className = 'toc-level-' + heading.tagName.toLowerCase();
+            var link = document.createElement('a');
+            link.href = '#' + heading.id;
+            link.textContent = text;
+            item.appendChild(link);
+            list.appendChild(item);
+        });
+
+        if (list.children.length) {
+            toc.hidden = false;
+        }
+    });
+</script>

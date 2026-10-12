@@ -11,17 +11,29 @@ title: Home
 
 <h2>Current Status</h2>
 
-I recently received a [grant](https://blog.cosmos-institute.org/p/announcing-80-new-cosmos-grantees) from the [Cosmos Institute](https://cosmos-institute.org) to build the <b>Compression Integrity Bench</b>.
+<div class="project">
+    <h3>Cosmos Institute - Compression Integrity Bench</h3>
+    <p>
+        I recently received a <a href="https://blog.cosmos-institute.org/p/announcing-80-new-cosmos-grantees" target="_blank" rel="noopener">grant</a> from the <a href="https://cosmos-institute.org" target="_blank" rel="noopener">Cosmos Institute</a> to build the <b>Compression Integrity Bench</b>.
+    </p>
 
 <img src="pictures/Jarrett Vickers — Compression Integrity Bench.png" alt="Compression Integrity Bench" style="max-width: 100%; height: auto; margin-top: 10px;">
 
->_Decentralized AI is premised on open-weight models running on local hardware. But almost nobody runs them at full precision. LLM deployments are implemented under various inference optimization regimes, such as quantization. Quantized LLM deployments are evaluated on task performance, but not on epistemic behavior. Careless quantization does more than just degrade performance - it disproportionately affects low-magnitude weights and the tails of the output distribution. If hedging, alternative hypotheses, and dissent live in those tails, then quantization could cause epistemic degradation. If this compromises the ability of open-weight models to maintain epistemic integrity, then the promise of decentralized AI may remain unrealized._
+<p><i>
+    Decentralized AI is premised on open-weight models running on local hardware. But almost nobody runs them at full precision. LLM deployments are implemented under various inference optimization regimes, such as quantization. Quantized LLM deployments are evaluated on task performance, but not on epistemic behavior. Careless quantization does more than just degrade performance - it disproportionately affects low-magnitude weights and the tails of the output distribution. If hedging, alternative hypotheses, and dissent live in those tails, then quantization could cause epistemic degradation. If this compromises the ability of open-weight models to maintain epistemic integrity, then the promise of decentralized AI may remain unrealized.
+</i></p>
 
->_LLM epistemic integrity - such as calibrated uncertainty, (resistance to) sycophancy, willingness to perform Bayesian updates, use of references, and steelmanning opposition - are all implemented late in the LLM training process, in post-training. Research has shown that post-trained behaviors degrade under quantization, which suggests that epistemic integrity may be compromised. LLM epistemic integrity under quantization has never been rigorously researched and documented. You should be able to know if the local model you chose behaves faithfully to the one you think you're running._
+<p><i>
+    LLM epistemic integrity - such as calibrated uncertainty, (resistance to) sycophancy, willingness to perform Bayesian updates, use of references, and steelmanning opposition - are all implemented late in the LLM training process, in post-training. Research has shown that post-trained behaviors degrade under quantization, which suggests that epistemic integrity may be compromised. LLM epistemic integrity under quantization has never been rigorously researched and documented. You should be able to know if the local model you chose behaves faithfully to the one you think you're running.
+</i></p>
+</div>
 
-<br/>
-<br/>
-In my spare time, I teach machine learning at [Network School](https://ns.com/) in Astana, Kazakhstan.
+<div class="project">
+    <h3>Principles of Machine Learning</h3>
+    <p>
+        I <a href="machine-learning">teach machine learning</a> at <a href="https://ns.com/" target="_blank" rel="noopener">Network School</a> in Astana, Kazakhstan.
+    </p>
+</div>
 
 <hr class="break">
 
