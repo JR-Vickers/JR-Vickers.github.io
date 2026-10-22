@@ -9,6 +9,10 @@
     --sidebar-bg: #151515;
 }
 
+body {
+    font-size: 1.2em;
+}
+
 #page-toc {
     position: fixed;
     top: 2rem;

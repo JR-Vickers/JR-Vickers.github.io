@@ -2,7 +2,7 @@
 layout: page
 title: Home
 ---
-
+<body>
 <section class="intro">
 <p class="intro-text"></p>
 </section>
